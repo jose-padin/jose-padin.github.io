@@ -1,0 +1,82 @@
+body {
+  background-color: #E8E6E4;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-row-gap: 1%;
+  width: 100%;
+
+}
+
+
+#encabezado {
+  width: 100%;
+  display: grid;
+  background-color: #E4E6E7;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#encabezado h1, h2 {
+  margin: auto;
+}
+
+#img-div {
+  display: grid;
+  grid-template-columns: auto-fit;
+  margin: auto;
+  width: 100%;
+}
+
+#img-caption {
+  margin: auto;
+}
+
+#image {
+  min-width: 70%;
+  min-height: auto;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}
+
+#tribute-info {
+  display: grid;
+  margin: auto;
+}
+
+#tribute-info h3 {
+  font-size: 1.6em;
+  font-family: Times, san-serif;
+}
+
+section h3 {
+  margin-top: 60px;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px;
+}
+
+footer {
+  background-color: #F8C334;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  margin: auto;
+  margin-top: 60px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  font-size: 1.05em;
+}
